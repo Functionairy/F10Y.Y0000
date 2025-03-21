@@ -12,4 +12,7 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/Functionairy/F10Y.Y0000.git</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\F10Y.T0001\source\F10Y.T0001\F10Y.T0001.csproj" />
+  </ItemGroup>
 </Project>
