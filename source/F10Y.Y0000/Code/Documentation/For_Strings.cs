@@ -10,7 +10,7 @@ namespace F10Y.Y0000
         /// <summary>
         /// Contains documentation for the various strings, including fundamental strings ("" (the empty string), "A", "a", "1", "!", etc.) and useful strings ("TRUE", "true", "///", etc.).
         /// </summary>
-        [DocumentationsMarker] // I think this is required?
+        [DocumentationsMarker] // I think this is required for nested types to be surveyed?
         public static partial class For_Strings
         {
             /// <summary>

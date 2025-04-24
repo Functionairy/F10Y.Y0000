@@ -10,7 +10,7 @@ namespace F10Y.Y0000
         /// <summary>
         /// Contains documentation for the fundamental characters ('A', 'a', '1', '!', etc.).
         /// </summary>
-        [DocumentationsMarker] // I think this is required?
+        [DocumentationsMarker] // I think this is required for nested types to be surveyed?
         public static partial class For_Characters
         {
             /// <summary>
