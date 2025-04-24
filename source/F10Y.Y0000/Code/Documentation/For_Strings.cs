@@ -67,6 +67,47 @@ namespace F10Y.Y0000
             /// <para><description>The "true" string.</description></para>
             /// </summary>
             public static readonly object For_True_Lowercase;
+
+
+            #region Alphabet - Uppercase
+
+            /// <summary>
+            /// <para><value>"A"</value>, <name>capital letter A</name></para>
+            /// <para><description>The "A" capital letter string.</description></para>
+            /// </summary>
+            public static readonly object For_A;
+
+            /// <summary>
+            /// <para><value>"B"</value>, <name>capital letter B</name></para>
+            /// <para><description>The "B" capital letter string.</description></para>
+            /// </summary>
+            public static readonly object For_B;
+
+            /// <summary>
+            /// <para><value>"C"</value>, <name>capital letter C</name></para>
+            /// <para><description>The "C" capital letter string.</description></para>
+            /// </summary>
+            public static readonly object For_C;
+
+            /// <summary>
+            /// <para><value>"D"</value>, <name>capital letter D</name></para>
+            /// <para><description>The "D" capital letter string.</description></para>
+            /// </summary>
+            public static readonly object For_D;
+
+            /// <summary>
+            /// <para><value>"E"</value>, <name>capital letter E</name></para>
+            /// <para><description>The "E" capital letter string.</description></para>
+            /// </summary>
+            public static readonly object For_E;
+
+            #endregion
+
+            #region Alphabet - Lowercase
+
+
+
+            #endregion
         }
     }
 }
