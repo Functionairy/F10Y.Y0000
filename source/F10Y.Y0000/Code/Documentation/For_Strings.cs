@@ -38,6 +38,12 @@ namespace F10Y.Y0000
             public static readonly object For_NewLine_Windows;
 
             /// <summary>
+            /// <para><value></value>, <name>null string</name></para>
+            /// <para><description>The null string.</description></para>
+            /// </summary>
+            public static readonly object For_Null;
+
+            /// <summary>
             /// <para><value>"""</value>, <name>quotation mark</name></para>
             /// <para><description>The """ quotation mark (or quote-mark or double-quotation mark) string.</description></para>
             /// </summary>
