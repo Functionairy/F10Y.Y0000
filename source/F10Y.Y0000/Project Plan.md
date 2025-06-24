@@ -8,7 +8,7 @@ Domain Set:
 	.NET
 	C#
 
-Documentation: instance variety name
+Documentations: instance variety name
 
 F10Y: organization name
 Public: visibility
