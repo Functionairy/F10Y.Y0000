@@ -63,16 +63,40 @@ namespace F10Y.Y0000
 
 
             /// <summary>
+            /// <para><value>"False"</value>, <name>False</name></para>
+            /// <para><description>The "False" string.</description></para>
+            /// </summary>
+            public static readonly object For_False;
+
+            /// <summary>
             /// <para><value>"false"</value>, <name>false-lowercase</name></para>
             /// <para><description>The "false" string.</description></para>
             /// </summary>
             public static readonly object For_False_Lowercase;
 
             /// <summary>
+            /// <para><value>"FALSE"</value>, <name>false-uppercase</name></para>
+            /// <para><description>The "FALSE" string.</description></para>
+            /// </summary>
+            public static readonly object For_False_Uppercase;
+
+            /// <summary>
+            /// <para><value>"True"</value>, <name>true</name></para>
+            /// <para><description>The "True" string.</description></para>
+            /// </summary>
+            public static readonly object For_True;
+
+            /// <summary>
             /// <para><value>"true"</value>, <name>true-lowercase</name></para>
             /// <para><description>The "true" string.</description></para>
             /// </summary>
             public static readonly object For_True_Lowercase;
+
+            /// <summary>
+            /// <para><value>"TRUE"</value>, <name>true-uppercase</name></para>
+            /// <para><description>The "TRUE" string.</description></para>
+            /// </summary>
+            public static readonly object For_True_Uppercase;
 
 
             #region Alphabet - Uppercase
