@@ -25,9 +25,7 @@ namespace F10Y.Y0000
         /// </summary>
         public static readonly object NullCheckDeterminesEquality;
 
-        /// <summary>
-        /// <link><see href="https://learn.microsoft.com/en-us/dotnet/standard/frameworks#supported-target-frameworks"/></link>
-        /// </summary>
+        /// <inheritdoc cref="Documentation.Links.For_TargetFrameworks"/>
         public static readonly object TargetFrameworks_Link;
     }
 }
