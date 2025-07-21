@@ -14,6 +14,16 @@ namespace F10Y.Y0000
         public static partial class For_Strings
         {
             /// <summary>
+            /// <para><value>"\"</value>, <name>backslash</name></para>
+            /// <para><description>The "\" backslash string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_BackSlash"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_BackSlash;
+
+            /// <summary>
             /// <para><value>"©"</value>, <name>copyright string</name></para>
             /// <para><description>The "©" copyright string.</description></para>
             /// </summary>
@@ -54,6 +64,16 @@ namespace F10Y.Y0000
             /// <para><description>The ";" semicolon string.</description></para>
             /// </summary>
             public static readonly object For_Semicolon;
+
+            /// <summary>
+            /// <para><value>"/"</value>, <name>slash</name></para>
+            /// <para><description>The "/" slash string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Slash"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Slash;
 
             /// <summary>
             /// <para><value>" "</value>, <name>space</name></para>
