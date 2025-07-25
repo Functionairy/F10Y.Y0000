@@ -11,6 +11,11 @@ namespace F10Y.Y0000
 	[DocumentationsMarker]
 	public static partial class Documentation
 	{
+        /// <summary>
+        /// For x.CompareTo(y) in <see cref="IComparable{T}.CompareTo(T)"/>.
+        /// </summary>
+        public static readonly object CompareTo_XtoY;
+
         /// <remarks>
         /// Empty interface to serve as a placeholder.
         /// All functionality is delivered by implementations.

@@ -30,10 +30,30 @@ namespace F10Y.Y0000
             public static readonly object For_Copyright;
 
             /// <summary>
+            /// <para><value>"--"</value>, <name>double-dash</name></para>
+            /// <para><description>The "--" double-dash string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_DoubleDash"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_DoubleDash;
+
+            /// <summary>
             /// <para><value>""</value>, <name>empty string</name></para>
             /// <para><description>The "" empty string.</description></para>
             /// </summary>
             public static readonly object For_Empty;
+
+            /// <summary>
+            /// <para><value>"-"</value>, <name>hyphen</name></para>
+            /// <para><description>The "-" hyphen string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Hyphen"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Hyphen;
 
             /// <summary>
             /// <para><value>"\n"</value>, <name>new line</name></para>
