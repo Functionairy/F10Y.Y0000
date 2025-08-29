@@ -32,5 +32,12 @@ namespace F10Y.Y0000
 
         /// <inheritdoc cref="Documentation.Links.For_TargetFrameworks"/>
         public static readonly object TargetFrameworks_Link;
+
+        /// <summary>
+        /// When equating two object instances, if the objects have different types then a simple type check has determined whether the instances are equal.
+        /// In the case where the instances have different types, a type check has determined equality and the instances are not equal.
+        /// Otherwise, if the instances have the same type, a type check does not determine equality and you will need to equate instance values.
+        /// </summary>
+        public static readonly object TypeCheckDeterminesEquality;
     }
 }

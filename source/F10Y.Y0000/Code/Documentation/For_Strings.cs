@@ -14,6 +14,16 @@ namespace F10Y.Y0000
         public static partial class For_Strings
         {
             /// <summary>
+            /// <para><value>"*"</value>, <name>asterix</name></para>
+            /// <para><description>The "*" asterix string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Asterix"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Asterix;
+
+            /// <summary>
             /// <para><value>"\"</value>, <name>backslash</name></para>
             /// <para><description>The "\" backslash string.</description></para>
             /// </summary>
@@ -72,6 +82,16 @@ namespace F10Y.Y0000
             /// <para><description>The null string.</description></para>
             /// </summary>
             public static readonly object For_Null;
+
+            /// <summary>
+            /// <para><value>"."</value>, <name>period</name></para>
+            /// <para><description>The "." period string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Period"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Period;
 
             /// <summary>
             /// <para><value>"""</value>, <name>quotation mark</name></para>
