@@ -30,6 +30,16 @@ namespace F10Y.Y0000
             #region Alphabet - Lower
 
             /// <summary>
+            /// <para><value>'q'</value>, <name>kew</name></para>
+            /// <para><description>The lowercase 'q' (kew) character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_q"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_q;
+
+            /// <summary>
             /// <para><value>'v'</value>, <name>vee</name></para>
             /// <para><description>The lowercase 'v' (vee) character.</description></para>
             /// </summary>
@@ -38,6 +48,20 @@ namespace F10Y.Y0000
             /// <para><self-reference><see cref="For_v"/></self-reference></para>
             /// </remarks>
             public static readonly object For_v;
+
+            #endregion
+
+            #region Control
+
+            /// <summary>
+            /// <para><value>'\u001b'</value>, <name>escape (27)</name></para>
+            /// <para><description>The '\u001b' escape (27) character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Escape"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Escape;
 
             #endregion
 
