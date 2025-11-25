@@ -129,7 +129,21 @@ namespace F10Y.Y0000
             /// <para><value>" "</value>, <name>space</name></para>
             /// <para><description>The " " space string.</description></para>
             /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Space"/></self-reference></para>
+            /// </remarks>
             public static readonly object For_Space;
+
+            /// <summary>
+            /// <para><value>"\t"</value>, <name>tab</name></para>
+            /// <para><description>The "\t" tab string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Tab"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Tab;
 
 
             /// <summary>

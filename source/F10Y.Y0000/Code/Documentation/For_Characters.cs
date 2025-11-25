@@ -169,6 +169,36 @@ namespace F10Y.Y0000
             /// <para><description>The '\t' tab character .</description></para>
             /// </summary>
             public static readonly object For_Tab;
+
+            /// <summary>
+            /// <para><value>'_'</value>, <name>underscore</name></para>
+            /// <para><description>The '_' underscore character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Underscore"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Underscore;
+
+            /// <summary>
+            /// <para><value>'['</value>, <name>open bracket</name></para>
+            /// <para><description>The '[' open bracket character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_OpenBracket"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_OpenBracket;
+
+            /// <summary>
+            /// <para><value>']'</value>, <name>close bracket</name></para>
+            /// <para><description>The ']' close bracket character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_CloseBracket"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_CloseBracket;
         }
     }
 }
