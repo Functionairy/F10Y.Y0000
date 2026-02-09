@@ -139,6 +139,16 @@ namespace F10Y.Y0000
             public static readonly object For_Period;
 
             /// <summary>
+            /// <para><value>'|'</value>, <name>pipe</name></para>
+            /// <para><description>The '|' pipe character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Pipe"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Pipe;
+
+            /// <summary>
             /// <para><value>'"'</value>, <name>quotation mark</name></para>
             /// <para><description>The '"' quotation mark (or quote or double-quotation mark) character.</description></para>
             /// </summary>

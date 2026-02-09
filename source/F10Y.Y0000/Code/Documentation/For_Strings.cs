@@ -50,6 +50,16 @@ namespace F10Y.Y0000
             public static readonly object For_DoubleDash;
 
             /// <summary>
+            /// <para><value>"||"</value>, <name>double-pipe</name></para>
+            /// <para><description>The "||" double-pipe string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_DoublePipe"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_DoublePipe;
+
+            /// <summary>
             /// <para><value>""</value>, <name>empty string</name></para>
             /// <para><description>The "" empty string.</description></para>
             /// </summary>
