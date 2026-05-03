@@ -107,6 +107,16 @@ namespace F10Y.Y0000
             public static readonly object For_Comma;
 
             /// <summary>
+            /// <para><value>'-'</value>, <name>dsah</name></para>
+            /// <para><description>The '-' dash character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Dash"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Dash;
+
+            /// <summary>
             /// <para><value>'='</value>, <name>equals</name></para>
             /// <para><description>The '=' equals character.</description></para>
             /// </summary>
@@ -209,6 +219,26 @@ namespace F10Y.Y0000
             /// <para><self-reference><see cref="For_CloseBracket"/></self-reference></para>
             /// </remarks>
             public static readonly object For_CloseBracket;
+
+            /// <summary>
+            /// <para><value>'{'</value>, <name>open brace</name></para>
+            /// <para><description>The '{' open brace character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_OpenBrace"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_OpenBrace;
+
+            /// <summary>
+            /// <para><value>'}'</value>, <name>close brace</name></para>
+            /// <para><description>The '}' close brace character.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_CloseBrace"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_CloseBrace;
         }
     }
 }
