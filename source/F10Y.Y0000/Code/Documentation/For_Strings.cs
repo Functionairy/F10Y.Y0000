@@ -34,6 +34,26 @@ namespace F10Y.Y0000
             public static readonly object For_BackSlash;
 
             /// <summary>
+            /// <para><value>"}"</value>, <name>close-brace</name></para>
+            /// <para><description>The "}" close-brace string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Brace_Close"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Brace_Close;
+
+            /// <summary>
+            /// <para><value>"{"</value>, <name>open-brace</name></para>
+            /// <para><description>The "{" open-brace string.</description></para>
+            /// </summary>
+            /// <remarks>
+            /// <para>---</para>
+            /// <para><self-reference><see cref="For_Brace_Open"/></self-reference></para>
+            /// </remarks>
+            public static readonly object For_Brace_Open;
+
+            /// <summary>
             /// <para><value>"©"</value>, <name>copyright string</name></para>
             /// <para><description>The "©" copyright string.</description></para>
             /// </summary>
